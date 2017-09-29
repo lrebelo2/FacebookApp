@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient"
+    android:paddingTop="0dip" android:layout_gravity="top"
+    >
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imagepost"
+            android:adjustViewBounds="false"
+            android:layout_gravity="left|top"
+            android:padding="10dp"
+            android:src="@drawable/events"
+             />
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient"
+            android:paddingTop="6dp" android:layout_gravity="top"
+            >
+            <TableRow> <TextView
+                android:id="@+id/name"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:width="340dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SpaceX" />
+            </TableRow>
+            <TableRow><TextView
+                android:id="@+id/created_time"
+                android:textSize="10dp"
+                android:textColor="@color/black"
+                android:width="340dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-03-19T08:53:09+0000" /></TableRow>
+            <TableRow><TextView
+                android:id="@+id/message"
+                android:textSize="10dp"
+                android:width="340dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="12dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula, metus ac consequat porta, enim mauris mollis tellus, eget molestie orci leo vitae magna. Duis vitae tellus ac quam porta pretium. Proin auctor vitae risus ut tempor. Vestibulum nisl leo, fringilla mattis ipsum placerat, tincidunt sollicitudin augue. Integer fringilla laoreet quam, sed tristique tellus fringilla quis." />
+
+
+            </TableRow>
+        </TableLayout>
+
+    </TableRow>
+</TableLayout>

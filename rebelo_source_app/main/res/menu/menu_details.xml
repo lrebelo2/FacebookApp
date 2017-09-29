@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lucas.fbsearch.DetailsActivity">
+    <item
+        android:id="@+id/addFav"
+        android:orderInCategory="100"
+        android:title="@string/addFav"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="@string/share"
+        app:showAsAction="never" />
+</menu>

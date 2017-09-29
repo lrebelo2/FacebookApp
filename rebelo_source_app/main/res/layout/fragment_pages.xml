@@ -1,0 +1,64 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lucas.fbsearch.PagesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="472dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout">
+
+        <ListView
+            android:id="@+id/lvpages"
+            style="@style/Widget.AppCompat.Light.ListView.DropDown"
+            android:layout_width="match_parent"
+            android:layout_height="477dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:clipToPadding="false"
+            android:headerDividersEnabled="false"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="399dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="64dp">
+
+        <Button
+            android:id="@+id/prev_pages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Prev" />
+
+        <Button
+            android:id="@+id/next_pages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NEXT" />
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

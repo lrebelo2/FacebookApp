@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Search on FB</string>
+    <string name="formLabel">Enter a keyword:</string>
+    <string name="searchButtonString">SEARCH</string>
+    <string name="clearButtonString">CLEAR</string>
+    <string name="title_activity_result">Results</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="addFav">Add to Favorites</string>
+    <string name="remFav">Remove From Favorites</string>
+    <string name="share">Share</string>
+    <string name="facebook_app_id">1191416027640633</string>
+    <string name="title_activity_main2">Search on FB</string>
+    <string name="usc_id">4869710172</string>
+    <string name="about_name">Lucas Rebelo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+
+</resources>
